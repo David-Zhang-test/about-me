@@ -1,10 +1,29 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>新页面</title>
-</head>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
 <body>
+<ul>
+    <li class="a">我的当当</li>
+    <li>我的收藏</li>
+    <li>我的凌平咯</li>
+    <li>我的评论</li>
+    <li>我的余额</li>
+</ul>
+ 
+<style type="text/css">
+    ul .a {
+        display:block!important;
+    }
+    ul li:not(:first-child) {
+        display:none;
+    }
+    ul:hover li{
+        display:block;
+    }
+</style>
 </body>
 </html>
