@@ -1,29 +1,148 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<ul>
-    <li class="a">æˆ‘çš„å½“å½“</li>
-    <li>æˆ‘çš„æ”¶è—</li>
-    <li>æˆ‘çš„å‡Œå¹³å’¯</li>
-    <li>æˆ‘çš„è¯„è®º</li>
-    <li>æˆ‘çš„ä½™é¢</li>
-</ul>
- 
-<style type="text/css">
-    ul .a {
-        display:block!important;
-    }
-    ul li:not(:first-child) {
-        display:none;
-    }
-    ul:hover li{
-        display:block;
-    }
-</style>
-</body>
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=gb2312" /> 
+		<title>CSSÏÂÀ­²Ëµ¥ÊµÀıÄ£¿é-www.divcss5.com</title> 
+		<style> 
+			body,ul,li{
+				background-color:white;
+				font-size:12px;
+				font-family:Arial, Helvetica, sans-serif;
+				margin:0px; 
+				padding:0px;
+			} 
+			a{ 
+				color:#000000; 
+				text-decoration:none;
+			} 
+			body{
+				text-align:center; 
+			} 
+			li{
+				display:inline;
+				list-style:none;
+				list-style-position:outside;
+				text-align:center;
+				font-weight:bold; 
+				float:left;
+			} 
+			.list a:link{
+				color:#336601;
+				text-decoration:none;
+				float:left;
+				width:100px;
+				padding:3px 5px 0px 5px;
+			} 
+			.list a:visited{
+				color:#336601;
+				text-decoration:none;
+				float:left;
+				padding:3px 5px 0px 5px;width:100px;
+			} 
+			.list a:hover{
+				color:white;
+				float:left;
+				padding:3px 3px 0px 20px;
+				width:88px;
+				text-decoration:none;
+				background-color:#539D26;
+			} 
+			.list a:active{
+				color:white;
+				float:left;
+				padding:3px 3px 0px 20px;
+				width:88px;
+				text-decoration:none;
+				background-color:#BD06B4;
+			} 
+			#nav{
+				width:600px;
+				height:30px; 
+				margin:0 auto;
+				padding:0px 5px;
+			    text-align:center; 
+				clear:both;
+			} 
+			.list{
+				line-height:20px;
+				text-align:left;
+				padding:4px;
+				font-weight:normal;
+			} 
+			.menu1{
+				width:120px;
+				height:auto;
+				margin:6px 4px 0px 0px;
+				border:1px solid #9CDD75;
+				background-color:#F1FBEC;
+				color:#336601;
+				padding:6px 0px 0px 0px;
+				cursor:hand;
+				overflow-y:hidden;
+				filter:Alpha(opacity=70);
+				-moz-opacity:0.7;
+			} 
+			.menu2{
+				width:120px;
+				height:18px;
+				margin:6px 4px 0px 0px;
+				background-color:#F5F5F5;
+				color:#999999;
+				border:1px solid #EEE8DD;
+				padding:6px 0px 0px 0px;
+				overflow-y:hidden;
+				cursor:hand;
+			} 
+		</style> 
+	</head> 
+
+	<body> 
+		<div>´ó¼ÒÒÔºóÔÚÒÔºóÔËÓÃÊ±ºò¿ÉÒÔÀ©Õ¹Ê¹ÓÃ£¬¸ü¸ÄÎªÊÊºÏ×Ô¼ºÍøÒ³ĞèÇó
+			<a href="http://www.divcss5.com/">css</a>¡£</div> 
+		<div id="nav"> 
+			<ul> 
+				<li class="menu2" onMouseOver="this.className='menu1'"
+				 onMouseOut="this.className='menu2'">div+css  
+					<div class="list"> 
+						<a href="http://www.divcss5.com/">DIV CSS</a><br /> 
+						<a href="#">ÎÒµÄÊ×Ò³</a><br /> 
+						<a href="#">ÎÒµÄÈÕÖ¾</a><br /> 
+						<a href="#">ÎÒµÄÈÕÖ¾</a><br /> 
+						<a href="#">ÎÒµÄÏà²á</a><br /> 
+						<a href="#">ÎÒµÄÊÕ²Ø</a><br /> 
+					</div> 
+				</li> 
+				<li class="menu2" onMouseOver="this.className='menu1'"
+				 onMouseOut="this.className='menu2'"><a href="http://www.divcss5.com/html/">HTMLÈëÃÅ</a> 
+					<div class="list"> 
+						<a href="http://www.divcss5.com/html/">HTMLÈëÃÅ</a><br /> 
+						<a href="http://www.divcss5.com/html/h5.html">htmlÊÇÊ²Ã´</a><br /> 
+						<a href="#">ÎÒµÄÈÕÖ¾</a><br /> 
+						<a href="#">ÎÒµÄÏà²á</a><br /> 
+						<a href="#">ÎÒµÄÊÕ²Ø</a><br /> 
+					</div> 
+				</li> 
+				<li class="menu2" onMouseOver="this.className='menu1'"
+				 onMouseOut="this.className='menu2'"><a href="http://www.divcss5.com/rumen/">CSSÈëÃÅ</a>  
+					<div class="list"> 
+						<a href="http://www.divcss5.com/">DIVCSS5</a><br /> 
+						<a href="#">ÎÒµÄÏà²á</a><br /> 
+						<a href="#">ÎÒµÄÊÕ²Ø</a><br /> 
+					</div> 
+				</li> 
+				<li class="menu2" onMouseOver="this.className='menu1'" 
+				onMouseOut="this.className='menu2'">
+					<a href="http://www.divcss5.com/css-hack/">CSS HACK</a> 
+						<div class="list"> 
+							<a href="http://www.divcss5.com/">DIV+CSS</a><br /> 
+							<a href="#">ÎÒµÄÊ×Ò³</a><br /> 
+							<a href="#">ÎÒµÄÈÕÖ¾</a><br /> 
+							<a href="#">ÎÒµÄÏà²á</a><br /> 
+							<a href="#">ÎÒµÄÊÕ²Ø</a><br /> 
+					</div> 
+				</li> 
+			</ul> 
+		</div> 
+	</body> 
 </html>
